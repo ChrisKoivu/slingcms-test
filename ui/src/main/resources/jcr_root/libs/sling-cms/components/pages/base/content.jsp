@@ -17,4 +17,5 @@
  * under the License.
  */ --%>
  <%@include file="/libs/sling-cms/global.jsp"%>
+  <!-- components/pages/base/container -->
 <sling:include path="container" resourceType="sling-cms/components/general/container" />

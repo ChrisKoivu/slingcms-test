@@ -17,6 +17,7 @@
  * under the License.
  */ --%>
  <%@include file="/libs/sling-cms/global.jsp"%>
+  <!-- components/pages/editor/editor page-->
 <html lang="en" class="editor-page">
 	<sling:call script="head.jsp" />
 	<sling:call script="body.jsp" />

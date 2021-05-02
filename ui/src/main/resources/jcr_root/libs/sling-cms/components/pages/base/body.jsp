@@ -17,6 +17,7 @@
  * under the License.
  */ --%>
 <%@include file="/libs/sling-cms/global.jsp"%>
+ <!-- components/pages/base/body-->
 <body class="cms">
     <div class="gradient"></div>
     <div class="container is-fluid">

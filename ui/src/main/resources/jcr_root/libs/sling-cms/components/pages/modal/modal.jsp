@@ -17,6 +17,7 @@
  * under the License.
  */ --%>
 <%@include file="/libs/sling-cms/global.jsp"%>
+<!-- components/pages/modal/modal page-->
 <div class="modal-background"></div>
 <div class="modal-content is-draggable">
     <div class="box">

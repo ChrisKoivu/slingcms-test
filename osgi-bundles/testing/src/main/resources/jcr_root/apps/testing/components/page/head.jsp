@@ -16,6 +16,10 @@
  * specific language governing permissions and limitations
  * under the License.
  */ --%>
-<%@include file="/libs/sling-cms/global.jsp"%>
- <!-- components/pages/base/scripts-->
-<script src="/static/clientlibs/sling-cms/js/scripts-all.min.js" async></script>
+ <%@include file="/libs/sling-cms/global.jsp"%>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>${resource.valueMap['jcr:title']} | testing</title>
+  <link href="/static/clientlibs/testing/css/bootstrap.min.css" rel="stylesheet">
+</head>

@@ -16,6 +16,13 @@
  * specific language governing permissions and limitations
  * under the License.
  */ --%>
-<%@include file="/libs/sling-cms/global.jsp"%>
- <!-- components/pages/base/scripts-->
-<script src="/static/clientlibs/sling-cms/js/scripts-all.min.js" async></script>
+ <%@include file="/libs/sling-cms/global.jsp"%>
+<body>
+  <sling:call script="/libs/sling-cms/components/editor/scripts/init.jsp" />
+  <main role="main" class="container">
+    <sling:adaptTo adaptable="${resource}" adaptTo="foundation.HelloWorldModel" var="helloWorld" />
+    <sling:encode value="${helloWorld.message}" mode="HTML" />
+    <sling:include path="container" resourceType="sling-cms/components/general/container"/>
+  </main>
+  <sling:call script="/libs/sling-cms/components/editor/scripts/finalize.jsp" />
+</body>

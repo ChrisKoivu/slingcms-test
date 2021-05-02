@@ -1,0 +1,12 @@
+{
+    "name": "testing-front-end",
+    "version": "1.0.0",
+    "description": "Scripts and Styles for testing",
+    "dependencies": {
+        "bootstrap": "^4.3.1"
+    },
+    "devDependencies": {
+        "gulp": "^4.0.1"
+    },
+    "license": "Apache-2.0"
+}
