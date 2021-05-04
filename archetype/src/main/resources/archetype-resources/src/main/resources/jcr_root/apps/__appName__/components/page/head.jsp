@@ -21,5 +21,5 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <title>${resource.valueMap['jcr:title']} | ${appName}</title>
-  <link href="/static/clientlibs/${appName}/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/static/clientlibs/${appName}/css/foundation.css" rel="stylesheet">
 </head>

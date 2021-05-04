@@ -17,7 +17,7 @@
 var gulp = require('gulp');
 
 gulp.task('css', function() {
-  return gulp.src(['./node_modules/bootstrap/dist/css/bootstrap.min.css'])
+  return gulp.src(['./node_modules/foundation-sites/dist/css/foundation.css'])
     .pipe(gulp.dest('./target/dist/jcr_root/static/clientlibs/${appName}/css'));
 });
 
